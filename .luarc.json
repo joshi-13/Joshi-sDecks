@@ -1,3 +1,7 @@
 {
-    "workspace.library": ["path/to/smods", "path/to/lovely"]
+    "workspace.library": ["path/to/smods", "path/to/lovely"],
+    "diagnostics.globals": [
+        "SMODS",
+        "MODS"
+    ]
 }
