@@ -5,6 +5,7 @@ return {
                 name = "Tarrot Deck",
                 text = {
                     "deck",
+                    "test"
                 }
             }
         }
