@@ -1,0 +1,10 @@
+{
+    "id": "joshi's decks",
+    "name": "Joshi's Decks",
+    "author": ["Joshi"],
+    "description": "A collection of various decks.",
+    "prefix":"JoDe",
+    "main_file": "main.lua",
+    "version": "0.0.1"
+    
+}
