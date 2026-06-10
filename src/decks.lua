@@ -5,30 +5,60 @@ SMODS.Back {
     discovered = true,
     atlas = "placeholders",
     pos = { x = 0, y = 0 },
-    config = { joker_rate = 0, planet_rate = 0, tarrot_rate = 100, spectral_rate = 0, playing_card_rate = 0 },
+    config = { joker_rate = 0, planet_rate = 0, tarrot_rate = 100, spectral_rate = 0, playing_card_rate = 0,
+        banned_keys = {
+            "v_hone",
+            "v_glow_up",
+            "v_omen_globe",
+            "v_telescope",
+            "v_observatory",
+            "v_tarot_merchant",
+            "v_tarot_tycoon",
+            "v_planet_merchant",
+            "v_planet_tycoon",
+            "v_magic_trick",
+            "v_illusion",
+
+            "p_buffoon_normal_1",
+            "p_buffoon_normal_2",
+            "p_buffoon_jumbo_1",
+            "p_buffoon_mega_1",
+
+            "p_celestial_normal_1",
+            "p_celestial_normal_2",
+            "p_celestial_normal_3",
+            "p_celestial_normal_4",
+            "p_celestial_jumbo_1",
+            "p_celestial_jumbo_2",
+            "p_celestial_mega_1",
+            "p_celestial_mega_2",
+
+            "p_spectral_normal_1",
+            "p_spectral_normal_2",
+            "p_spectral_jumbo_1",
+            "p_spectral_mega_1",
+
+            "p_standard_normal_1",
+            "p_standard_normal_2",
+            "p_standard_normal_3",
+            "p_standard_normal_4",
+            "p_standard_jumbo_1",
+            "p_standard_jumbo_2",
+            "p_standard_mega_1",
+            "p_standard_mega_2",
+        }
+    },
     loc_vars = function(self, info_queue, back)
         return { vars = { self.config.spectral_rate } }
     end,
     apply = function(self, back)
-
         G.GAME.joker_rate = self.config.joker_rate
         G.GAME.planet_rate = self.config.planet_rate
         G.GAME.tarrot_rate = self.config.tarrot_rate
         G.GAME.spectral_rate = self.config.spectral_rate
         G.GAME.playing_card_rate = self.config.playing_card_rate
-        G.GAME.banned_keys = {
-            {id = "v_hone"},
-            {id = "v_glow_up"},
-            {id = "v_omen_globe"},
-            {id = "v_telescope"},
-            {id = "v_observatory"},
-            {id = "v_tarot_merchant"},
-            {id = "v_tarot_tycoon"},
-            {id = "v_planet_merchant"},
-            {id = "v_planet_tycoon"},
-            {id = "v_magic_trick"},
-            {id = "v_illusion"}
-        }
-
+        for _, banned_key in pairs(self.config.banned_keys) do
+            G.GAME.banned_keys[banned_key] = true
+        end
     end,
 }
