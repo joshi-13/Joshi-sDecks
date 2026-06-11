@@ -9,8 +9,8 @@ return {
 
                 }
             },
-            b_JoDe_tarrot = {
-                name = "Tarrot Deck",
+            b_JoDe_tarot = {
+                name = "Tarot Deck",
                 text = {
                     "Only {C:tarot}Tarot{} cards",
                     "will appear in the shop",
@@ -26,8 +26,9 @@ return {
             b_JoDe_cards = {
                 name = "Card Deck",
                 text = {
-                    "Only playing cards will appear in the shop",
-                    "start with the {C:tarot,T:v_magic_trick}Magic Trick{}",
+                    "Only playing cards will",
+                    "appear in the shop.",
+                    "Start with the {C:tarot,T:v_magic_trick}Magic Trick{}",
                     "{C:tarot,T:v_illusion}Illusion{} vouchers",
                 }
             }
