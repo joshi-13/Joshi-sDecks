@@ -7,8 +7,6 @@ SMODS.Back {
     pos = { x = 5, y = 3 },
     config = { joker_rate = 100, planet_rate = 0, tarrot_rate = 0, spectral_rate = 0, playing_card_rate = 0,
         banned_keys = {
-            "v_hone",
-            "v_glow_up",
             "v_omen_globe",
             "v_telescope",
             "v_observatory",
