@@ -2,12 +2,7 @@
 version = "1.0.0"
 priority = 0
 
-# Define a var substitution rule. This searches for lines that contain {{lovely:var_name}}
-# (var_name from this example, it can really be anything) and replaces each match with the
-# provided value.
 
-
-# Add Legendary to Joker ObjectType
 
 [[patches]]
 [patches.pattern]
