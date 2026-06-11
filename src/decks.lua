@@ -140,7 +140,7 @@ SMODS.Back {
     unlocked = true,
     discovered = true,
     atlas = "placeholders",
-    pos = { x = 6, y = 3 },
+    pos = { x = 6, y = 2 },
     config = { joker_rate = 0, planet_rate = 0, tarrot_rate = 0, spectral_rate = 100, playing_card_rate = 0,
         banned_keys = {
             "v_hone",
