@@ -4,7 +4,7 @@ SMODS.Back {
     unlocked = true,
     discovered = true,
     atlas = "placeholders",
-    pos = { x = 0, y = 0 },
+    pos = { x = 5, y = 3 },
     config = { joker_rate = 100, planet_rate = 0, tarrot_rate = 0, spectral_rate = 0, playing_card_rate = 0,
         banned_keys = {
             "v_hone",
@@ -75,7 +75,7 @@ SMODS.Back {
     unlocked = true,
     discovered = true,
     atlas = "placeholders",
-    pos = { x = 0, y = 0 },
+    pos = { x = 0, y = 3 },
     config = { joker_rate = 0, planet_rate = 0, tarrot_rate = 100, spectral_rate = 0, playing_card_rate = 0,
         banned_keys = {
             "v_hone",
@@ -140,7 +140,7 @@ SMODS.Back {
     unlocked = true,
     discovered = true,
     atlas = "placeholders",
-    pos = { x = 0, y = 0 },
+    pos = { x = 6, y = 3 },
     config = { joker_rate = 0, planet_rate = 0, tarrot_rate = 0, spectral_rate = 100, playing_card_rate = 0,
         banned_keys = {
             "v_hone",
@@ -209,7 +209,7 @@ SMODS.Back {
     unlocked = true,
     discovered = true,
     atlas = "placeholders",
-    pos = { x = 0, y = 0 },
+    pos = { x = 3, y = 1 },
     config = { joker_rate = 0, planet_rate = 0, tarrot_rate = 0, spectral_rate = 0, playing_card_rate = 100,
         banned_keys = {
             "v_hone",
@@ -256,7 +256,7 @@ SMODS.Back {
         }
 
     },
-    
+
     loc_vars = function(self, info_queue, back)
         return { vars = 
                 { self.config.spectral_rate },
