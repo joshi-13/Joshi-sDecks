@@ -31,8 +31,32 @@ return {
                     "Start with the {C:tarot,T:v_magic_trick}Magic Trick{}",
                     "{C:tarot,T:v_illusion}Illusion{} vouchers",
                 }
-            }
-
+            },
+            b_JoDe_common = {
+                name = "Common Deck",
+                text = {
+                    "Only common jokers will appear"
+                }
+            },
+            b_JoDe_uncommon = {
+                name = "Uncommon Deck",
+                text = {
+                    "Only uncommon jokers will appear"
+                }
+            },
+            b_JoDe_rare = {
+                name = "Rare Deck",
+                text = {
+                    "Only rare jokers will appear"
+                }
+            },
+            b_JoDe_legendary = {
+                name = "Legendary Deck",
+                text = {
+                    "Only legendary jokers will appear",
+                    "Showman effect is permanently active"
+                }
+            },
         }
     }
 }
