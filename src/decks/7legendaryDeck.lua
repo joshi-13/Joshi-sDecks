@@ -38,7 +38,6 @@ end
 
 SMODS.Back {
     key = "legendary",
-    order = 2757,
     unlocked = true,
     discovered = true,
     atlas = "placeholders",

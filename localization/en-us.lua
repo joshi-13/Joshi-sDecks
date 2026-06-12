@@ -4,7 +4,7 @@ return {
             b_JoDe_joker = {
                 name = "Joker Deck",
                 text = {
-                    "Only Jokers will ",
+                    "Only {C:default}Jokers will ",
                     "appear in the shop",
 
                 }
@@ -35,25 +35,25 @@ return {
             b_JoDe_common = {
                 name = "Common Deck",
                 text = {
-                    "Only common jokers will appear"
+                    "Only {C:common}Common{} Jokers will appear"
                 }
             },
             b_JoDe_uncommon = {
                 name = "Uncommon Deck",
                 text = {
-                    "Only uncommon jokers will appear"
+                    "Only {C:uncommon}Uncommon{} Jokers will appear"
                 }
             },
             b_JoDe_rare = {
                 name = "Rare Deck",
                 text = {
-                    "Only rare jokers will appear"
+                    "Only {C:rare}Rare{} Jokers will appear"
                 }
             },
             b_JoDe_legendary = {
                 name = "Legendary Deck",
                 text = {
-                    "Only legendary jokers will appear",
+                    "Only {C:legendary}Legendary{} Jokers will appear",
                     "Showman effect is permanently active"
                 }
             },

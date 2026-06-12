@@ -1,6 +1,5 @@
 SMODS.Back {
     key = "uncommon",
-    order = 2755,
     unlocked = true,
     discovered = true,
     atlas = "placeholders",
