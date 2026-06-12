@@ -29,7 +29,7 @@ return {
                     "Only playing cards will",
                     "appear in the shop.",
                     "Start with the {C:tarot,T:v_magic_trick}Magic Trick{}",
-                    "{C:tarot,T:v_illusion}Illusion{} vouchers",
+                    "and {C:tarot,T:v_illusion}Illusion{} vouchers",
                 }
             },
             b_JoDe_common = {
