@@ -2,8 +2,8 @@ SMODS.Back {
     key = "uncommon",
     unlocked = true,
     discovered = true,
-    atlas = "placeholders",
-    pos = { x = 3, y = 1 },
+    atlas = "rarity",
+    pos = { x = 1, y = 0},
     config = { common_chance = 0, uncommon_chance = 1, rare_chance = 0,
         banned_keys = {
             "c_wraith",
